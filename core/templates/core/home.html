@@ -1,0 +1,24 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+    <div class="text">
+        <div class="text text-center">
+            <img src={% static "core/images/p.jpg" %} alt="Profile Photo" class='img-fluid mt-4 img-thumbnail' height='200px' width='200px'>
+        </div>
+        <div class='text text-white'>
+            <h1 class="font-weight-bold">Hello Dear, </h1>
+            <div class="mx-5 text-justify px-4" style="line-height:2rem">
+                <p style="text-indent:100px"><i class='text text-warning'>Lorem ipsum dolor </i>sit amet, consectetur adipisicing elit. Quisqua
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisis!
+                </p>
+            </div>
+            <h4 class="text text-warning">Thank You...</h4>
+        </div>
+        <div class="text text-center">
+            <a href="#" class="btn btn-outline-success my-3">Hire Me</a>
+            <a href="#" class="btn btn-outline-warning my-3">Contact Me</a>
+        </div>
+    </div>
+{% endblock content %}    
